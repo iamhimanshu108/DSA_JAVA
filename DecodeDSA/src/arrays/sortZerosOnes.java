@@ -4,7 +4,7 @@ public class sortZerosOnes {
     public static void main(String[] args) {
         int[] arr = {0,0,0,1,1,1};
         int n = arr.length;
-        // Method - 1
+        // Method - 1 two pass soln
 //        int noOfZeroes = 0, noOfOnes  = 0;
 //        for (int i = 0; i <n ; i++) {
 //            if(arr[i] == 0) noOfZeroes++;
