@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/DecodeDSA/DecodeDSA.iml" filepath="$PROJECT_DIR$/DecodeDSA/DecodeDSA.iml" />
       <module fileurl="file://$PROJECT_DIR$/OOPS/OOPS.iml" filepath="$PROJECT_DIR$/OOPS/OOPS.iml" />
       <module fileurl="file://$PROJECT_DIR$/Sheets/Sheets.iml" filepath="$PROJECT_DIR$/Sheets/Sheets.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sorting/Sorting.iml" filepath="$PROJECT_DIR$/Sorting/Sorting.iml" />
       <module fileurl="file://$PROJECT_DIR$/Sheets/arraySheet/arraySheet.iml" filepath="$PROJECT_DIR$/Sheets/arraySheet/arraySheet.iml" />
     </modules>
   </component>
