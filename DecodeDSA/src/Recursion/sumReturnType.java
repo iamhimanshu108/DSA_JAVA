@@ -1,12 +1,11 @@
 package Recursion;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
-public class factorial {
-    public static  int fact(int n ){
+public class sumReturnType {
+    public static  int sum(int n ){
         if(n==1 || n==0) return 1;
-        int ans = n * fact(n-1);
+        int ans = n + sum(n-1);
 
         return ans;
     }
@@ -16,6 +15,6 @@ public class factorial {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter n : ");
         int n = sc.nextInt();
-        System.out.println(fact(n));
+        System.out.println(sum(n));
     }
 }
