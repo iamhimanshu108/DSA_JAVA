@@ -65,6 +65,13 @@ class SLL{
         return temp.val;
     }
 
+    void deleteAtHead()
+    {   if(head==null) throw new Error("List is Empty");
+        head = head.next;
+        size--;
+    }
+
+
 
     void display(){
         Node temp = head;
@@ -101,7 +108,9 @@ public class Implementation {
         list.display();
 
         System.out.println(list.get(2));
-        System.out.println(list.get(-1));
+//        System.out.println(list.get(-1));
+        list.deleteAtHead();
+        list.display();
 
 
 
