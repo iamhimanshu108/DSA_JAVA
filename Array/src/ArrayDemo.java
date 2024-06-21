@@ -17,6 +17,7 @@ public class ArrayDemo {
 
         Scanner sc = new Scanner(System.in);
         System.out.println("******Storing******");
+        System.out.println("******Storing******");
 
         for(int i=0; i<5; i++){
             System.out.println("Enter the value for index = " +i);
