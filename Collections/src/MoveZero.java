@@ -24,6 +24,10 @@ public class MoveZero {
             else if(arr[i]==0 && arr[j]==0){
                 j++;
             }
+            else {
+                i++;
+                j++;
+            }
         }
     }
 
