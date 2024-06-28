@@ -3,9 +3,9 @@ import java.util.HashMap;
 
 public class TwoSum {
     public static void main(String[] args) {
-        int arr[] = {2,7,11,};
+        int arr[] = {2,7,11,15};
         int t = 9;
-      int[] res =   twoSum(arr,t);
+        int[] res =   twoSum(arr,t);
         System.out.println(Arrays.toString(res));
 
     }
