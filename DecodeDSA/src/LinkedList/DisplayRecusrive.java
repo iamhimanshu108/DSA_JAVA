@@ -1,6 +1,6 @@
 package LinkedList;
 
-import com.sun.deploy.uitoolkit.impl.fx.AppletStageManager;
+//import com.sun.deploy.uitoolkit.impl.fx.AppletStageManager;
 
 public class DisplayRecusrive {
     public static void print(Node head){
